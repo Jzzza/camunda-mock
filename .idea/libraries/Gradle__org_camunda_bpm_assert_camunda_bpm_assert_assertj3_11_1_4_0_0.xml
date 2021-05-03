@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: org.camunda.bpm.assert:camunda-bpm-assert-assertj3-11-1:4.0.0">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.camunda.bpm.assert/camunda-bpm-assert-assertj3-11-1/4.0.0/b93c6cbf214aeee79f95b970406654de1c072d8f/camunda-bpm-assert-assertj3-11-1-4.0.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.camunda.bpm.assert/camunda-bpm-assert-assertj3-11-1/4.0.0/16742bc29eefdd77d46f86b95fbdedf91dada411/camunda-bpm-assert-assertj3-11-1-4.0.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

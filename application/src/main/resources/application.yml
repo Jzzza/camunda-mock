@@ -1,0 +1,12 @@
+#spring.datasource.url: jdbc:h2:file:./camunda-h2-database
+loader:
+  debug: true
+  path: camunda-bean-example.jar
+
+spring:
+  jersey:
+    application-path: rest
+
+camunda.bpm.admin-user:
+  id: demo
+  password: demo

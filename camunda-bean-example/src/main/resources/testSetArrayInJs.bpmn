@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bpmn:definitions xmlns:bpmn="http://www.omg.org/spec/BPMN/20100524/MODEL" xmlns:bpmndi="http://www.omg.org/spec/BPMN/20100524/DI" xmlns:dc="http://www.omg.org/spec/DD/20100524/DC" xmlns:di="http://www.omg.org/spec/DD/20100524/DI" id="Definitions_05ynbh6" targetNamespace="http://bpmn.io/schema/bpmn" exporter="Camunda Modeler" exporterVersion="4.6.0">
+  <bpmn:process id="Process_0ue0jie" isExecutable="true">
+    <bpmn:startEvent id="StartEvent_1">
+      <bpmn:outgoing>Flow_00ia0ug</bpmn:outgoing>
+    </bpmn:startEvent>
+    <bpmn:sequenceFlow id="Flow_00ia0ug" sourceRef="StartEvent_1" targetRef="Activity_0x59h1b" />
+    <bpmn:scriptTask id="Activity_0x59h1b" scriptFormat="javascript">
+      <bpmn:incoming>Flow_00ia0ug</bpmn:incoming>
+      <bpmn:outgoing>Flow_16n3m1u</bpmn:outgoing>
+      <bpmn:script>var A_Group = ['a','b','c']
+var B_Group = ['d','g','j']
+var groupList = new Array
+for(var i=0; i&lt;A_Group.length;i++){
+    for(var j=0;j&lt;B_Group.length;j++){
+       groupList.push({ 
+        "A_Group"  : A_Group[i],
+        "B_Group"  : B_Group[j]
+    });
+    }
+}
+execution.setVariable("GroupList", S(JSON.stringify(groupList)));</bpmn:script>
+    </bpmn:scriptTask>
+    <bpmn:sequenceFlow id="Flow_16n3m1u" sourceRef="Activity_0x59h1b" targetRef="Activity_12pnt54" />
+    <bpmn:endEvent id="Event_13mow8l">
+      <bpmn:incoming>Flow_0m5v7hn</bpmn:incoming>
+    </bpmn:endEvent>
+    <bpmn:sequenceFlow id="Flow_0m5v7hn" sourceRef="Activity_12pnt54" targetRef="Event_13mow8l" />
+    <bpmn:userTask id="Activity_12pnt54">
+      <bpmn:incoming>Flow_16n3m1u</bpmn:incoming>
+      <bpmn:outgoing>Flow_0m5v7hn</bpmn:outgoing>
+    </bpmn:userTask>
+  </bpmn:process>
+  <bpmndi:BPMNDiagram id="BPMNDiagram_1">
+    <bpmndi:BPMNPlane id="BPMNPlane_1" bpmnElement="Process_0ue0jie">
+      <bpmndi:BPMNEdge id="Flow_00ia0ug_di" bpmnElement="Flow_00ia0ug">
+        <di:waypoint x="215" y="117" />
+        <di:waypoint x="270" y="117" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="Flow_16n3m1u_di" bpmnElement="Flow_16n3m1u">
+        <di:waypoint x="370" y="117" />
+        <di:waypoint x="430" y="117" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="Flow_0m5v7hn_di" bpmnElement="Flow_0m5v7hn">
+        <di:waypoint x="530" y="117" />
+        <di:waypoint x="592" y="117" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNShape id="_BPMNShape_StartEvent_2" bpmnElement="StartEvent_1">
+        <dc:Bounds x="179" y="99" width="36" height="36" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="Activity_0cn5gwc_di" bpmnElement="Activity_0x59h1b">
+        <dc:Bounds x="270" y="77" width="100" height="80" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="Event_13mow8l_di" bpmnElement="Event_13mow8l">
+        <dc:Bounds x="592" y="99" width="36" height="36" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="Activity_0kykpc4_di" bpmnElement="Activity_12pnt54">
+        <dc:Bounds x="430" y="77" width="100" height="80" />
+      </bpmndi:BPMNShape>
+    </bpmndi:BPMNPlane>
+  </bpmndi:BPMNDiagram>
+</bpmn:definitions>

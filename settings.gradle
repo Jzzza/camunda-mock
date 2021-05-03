@@ -1,0 +1,7 @@
+rootProject.name = 'camunda-mocks'
+include 'camunda'
+include 'application'
+include 'camunda-webapp'
+include 'camunda-rest'
+include 'camunda-bean-example'
+

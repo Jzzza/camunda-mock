@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: org.camunda.bpm:camunda-engine-plugin-spin:7.14.0">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.camunda.bpm/camunda-engine-plugin-spin/7.14.0/cb95020ed0c5bfa918dd925eff14c4ec46df8841/camunda-engine-plugin-spin-7.14.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.camunda.bpm/camunda-engine-plugin-spin/7.14.0/baff6fb1bb150fe2c0ccd60d449abdd5c81eaca9/camunda-engine-plugin-spin-7.14.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

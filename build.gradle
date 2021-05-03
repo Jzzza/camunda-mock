@@ -1,0 +1,56 @@
+group 'ru.dmartyanov'
+version '1.0-SNAPSHOT'
+
+buildscript {
+    repositories {
+        jcenter()
+    }
+    dependencies {
+        classpath "io.spring.gradle:dependency-management-plugin:1.0.6.RELEASE"
+    }
+}
+
+subprojects {
+    apply plugin: 'java'
+    apply plugin: 'eclipse'
+    apply plugin: 'idea'
+    apply plugin: 'io.spring.dependency-management'
+
+    sourceCompatibility = 1.8
+    targetCompatibility = 1.8
+
+    repositories {
+        jcenter()
+        mavenCentral()
+    }
+
+    dependencyManagement {
+        imports {
+            mavenBom 'org.camunda.bpm:camunda-bom:7.14.0'
+            mavenBom 'org.camunda.spin:camunda-spin-bom:1.10.1'
+        }
+        dependencies {
+            // Не понятно пока за чем нужно
+            dependency group: 'org.springframework.boot', name: 'spring-boot-dependencies', version: '2.3.0.RELEASE'
+
+            // Camunda - основные зависимости
+            dependency group: 'org.camunda.bpm.springboot', name: 'camunda-bpm-spring-boot-starter', version: '7.14.0'
+
+            // Camunda - web-app чтобы работать с UI Camunda
+            dependency group: 'org.camunda.bpm.springboot', name: 'camunda-bpm-spring-boot-starter-webapp', version: '7.14.0'
+
+            // Camunda - для работы с rest
+            dependency group: 'org.camunda.bpm.springboot', name: 'camunda-bpm-spring-boot-starter-rest', version: '7.14.0'
+
+            // Spin для работы со сложным объектами json xml
+            dependency group: 'org.camunda.spin', name: 'camunda-spin-core', version: '1.10.1'
+
+            // Spin для работы со сложным объектами json xml
+            dependency group: 'org.camunda.spin', name: 'camunda-spin-dataformat-all', version: '1.10.1'
+
+            // Db-Drivers
+            dependency group: 'com.h2database', name: 'h2', version: '1.4.199'
+            dependency group: 'jakarta.xml.bind', name: 'jakarta.xml.bind-api', version: '2.3.2'
+        }
+    }
+}

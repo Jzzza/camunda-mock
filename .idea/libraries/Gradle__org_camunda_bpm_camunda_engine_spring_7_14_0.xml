@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: org.camunda.bpm:camunda-engine-spring:7.14.0">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.camunda.bpm/camunda-engine-spring/7.14.0/5eb893c5e9fd2aefbd5f0b9c9ac1d30996994793/camunda-engine-spring-7.14.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.camunda.bpm/camunda-engine-spring/7.14.0/9807cf04c0c4355a394251086ad2f1b5607ac6b7/camunda-engine-spring-7.14.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

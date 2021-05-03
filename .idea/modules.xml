@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/camunda-mocks.iml" filepath="$PROJECT_DIR$/.idea/modules/camunda-mocks.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/application/camunda-mocks.application.iml" filepath="$PROJECT_DIR$/.idea/modules/application/camunda-mocks.application.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/application/camunda-mocks.application.main.iml" filepath="$PROJECT_DIR$/.idea/modules/application/camunda-mocks.application.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/application/camunda-mocks.application.test.iml" filepath="$PROJECT_DIR$/.idea/modules/application/camunda-mocks.application.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/camunda/camunda-mocks.camunda.iml" filepath="$PROJECT_DIR$/.idea/modules/camunda/camunda-mocks.camunda.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/camunda-bean-example/camunda-mocks.camunda-bean-example.iml" filepath="$PROJECT_DIR$/.idea/modules/camunda-bean-example/camunda-mocks.camunda-bean-example.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/camunda-bean-example/camunda-mocks.camunda-bean-example.main.iml" filepath="$PROJECT_DIR$/.idea/modules/camunda-bean-example/camunda-mocks.camunda-bean-example.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/camunda-bean-example/camunda-mocks.camunda-bean-example.test.iml" filepath="$PROJECT_DIR$/.idea/modules/camunda-bean-example/camunda-mocks.camunda-bean-example.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/camunda-rest/camunda-mocks.camunda-rest.iml" filepath="$PROJECT_DIR$/.idea/modules/camunda-rest/camunda-mocks.camunda-rest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/camunda-rest/camunda-mocks.camunda-rest.main.iml" filepath="$PROJECT_DIR$/.idea/modules/camunda-rest/camunda-mocks.camunda-rest.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/camunda-rest/camunda-mocks.camunda-rest.test.iml" filepath="$PROJECT_DIR$/.idea/modules/camunda-rest/camunda-mocks.camunda-rest.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/camunda-webapp/camunda-mocks.camunda-webapp.iml" filepath="$PROJECT_DIR$/.idea/modules/camunda-webapp/camunda-mocks.camunda-webapp.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/camunda-webapp/camunda-mocks.camunda-webapp.main.iml" filepath="$PROJECT_DIR$/.idea/modules/camunda-webapp/camunda-mocks.camunda-webapp.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/camunda-webapp/camunda-mocks.camunda-webapp.test.iml" filepath="$PROJECT_DIR$/.idea/modules/camunda-webapp/camunda-mocks.camunda-webapp.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/camunda/camunda-mocks.camunda.main.iml" filepath="$PROJECT_DIR$/.idea/modules/camunda/camunda-mocks.camunda.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/camunda/camunda-mocks.camunda.test.iml" filepath="$PROJECT_DIR$/.idea/modules/camunda/camunda-mocks.camunda.test.iml" />
+    </modules>
+  </component>
+</project>

@@ -1,0 +1,17 @@
+dependencies {
+    // Зависимость на h2 Db
+    compile group: 'com.h2database', name: 'h2'
+
+    // Camunda - SpringBoot - ?(основные зависимость для spring-boot-starter)
+    compile group: 'org.camunda.bpm.springboot', name: 'camunda-bpm-spring-boot-starter'
+
+    // SPIN плагин для работы со сложным объектами
+    compile group: 'org.camunda.bpm', name: 'camunda-engine-plugin-spin'
+    compile group: 'org.camunda.spin', name: 'camunda-spin-core'
+    compile group: 'org.camunda.spin', name: 'camunda-spin-dataformat-all'
+    compile group: 'com.fasterxml.jackson.datatype', name: 'jackson-datatype-jdk8'
+
+    compile group: 'org.camunda.bpm.springboot', name: 'camunda-bpm-spring-boot-starter-webapp'
+    testCompile group: 'org.camunda.bpm.springboot', name: 'camunda-bpm-spring-boot-starter-test'
+}
+

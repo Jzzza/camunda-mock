@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: org.camunda.connect:camunda-connect-core:1.5.0">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.camunda.connect/camunda-connect-core/1.5.0/4bdb97c0a6be719f684008cfe6f74a8a3d16ae11/camunda-connect-core-1.5.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.camunda.connect/camunda-connect-core/1.5.0/c59c8397f0c28a3f1c629e7a012bff29616d9854/camunda-connect-core-1.5.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

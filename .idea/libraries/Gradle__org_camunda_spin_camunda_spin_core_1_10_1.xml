@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: org.camunda.spin:camunda-spin-core:1.10.1">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.camunda.spin/camunda-spin-core/1.10.1/4ae2bb3bb4c2d8c72ac4b7bf83a7cbdcfb1bc9c0/camunda-spin-core-1.10.1.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.camunda.spin/camunda-spin-core/1.10.1/457dd8fc2c102781ebd00bd97e2e5d7cb6767e93/camunda-spin-core-1.10.1-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
